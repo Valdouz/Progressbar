@@ -12,3 +12,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.skill {
+    width: 160px;
+    height: 160px;
+    /* background: cornflowerblue; */
+    position: relative;
+}
