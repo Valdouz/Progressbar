@@ -51,6 +51,6 @@ body {
 
 circle {
     fill: none;
-    stroke: cornflowerblue;
+    stroke: url(#GradientColor);
     stroke-width: 20px;
 }
