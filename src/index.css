@@ -52,14 +52,20 @@ body {
 circle {
     fill: none;
     stroke: url(#GradientColor);
+    animation: load 1.2s linear forwards;
     stroke-width: 20px;
     stroke-dasharray: 472;
-    stroke-dashoffset: 0;
-    animation: anim 2s linear forwards;
+    stroke-dashoffset: 472;
 }
 
 svg {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@keyframes load {
+    100% {
+        stroke-dashoffset: 118;
+    }
 }
